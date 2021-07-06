@@ -1620,6 +1620,12 @@
         <Component Id="cmp68158D010ECB439582D041355BFACCBB">
           <File Id="filB8694A0190CA422E9462870B514B813C" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Text.Encoding.CodePages.dll" />
         </Component>
+        <Component Id="cmp00DD21907C0C45A8B69A7D1527D567FD">
+          <File Id="fil371A6E2EB6B44DEF803CC1D35C47CF77" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Security.Cryptography.OpenSsl.dll" />
+        </Component>
+        <Component Id="cmp358CE9944E9D4C879CCC2A32AB36A9C0">
+          <File Id="filF89E4DACCDDF41609C30ACD8FC895734" KeyPath="yes" Source="$(var.ProductSourcePath)\ref\System.Security.Cryptography.Cng.dll" />
+        </Component>
       </Directory>
       <Directory Id="dirC72EEAF9434D4AD066E0F4D20D8E816C" Name="en-US">
         <Component Id="cmpDC2EF4541FA5A2E63F36A8CD6C5FA51B">
@@ -3033,8 +3039,8 @@
       <Component Id="cmp3547A55EA9D04784B4CF2FC717447E16">
         <File Id="fil463DDA419769417A8D5A34C433E194F2" KeyPath="yes" Source="$(var.ProductSourcePath)\System.Speech.dll" />
       </Component>
-      <Component Id="cmp378D79CF3DEC49979D7FA8A029141F0A">
-        <File Id="filC405FF3776264022973EF4C1E94C8C3B" KeyPath="yes" Source="$(var.ProductSourcePath)\mscordaccore_$(var.FileArchitecture)_$(var.FileArchitecture)_6.0.21.25307.dll" />
+      <Component Id="cmp3A765085824D4B0795F4985FB6892D5A">
+        <File Id="fil33B6FD6FCB1842758D58AD15544D2056" KeyPath="yes" Source="$(var.ProductSourcePath)\mscordaccore_$(var.FileArchitecture)_$(var.FileArchitecture)_6.0.21.32412.dll" />
       </Component>
     </DirectoryRef>
   </Fragment>
@@ -4013,7 +4019,9 @@
       <ComponentRef Id="cmp2BB002B115C247FFB3353C80CAAC10B3" />
       <ComponentRef Id="cmp68158D010ECB439582D041355BFACCBB" />
       <ComponentRef Id="cmp3547A55EA9D04784B4CF2FC717447E16" />
-      <ComponentRef Id="cmp378D79CF3DEC49979D7FA8A029141F0A" />
+      <ComponentRef Id="cmp00DD21907C0C45A8B69A7D1527D567FD" />
+      <ComponentRef Id="cmp358CE9944E9D4C879CCC2A32AB36A9C0" />
+      <ComponentRef Id="cmp3A765085824D4B0795F4985FB6892D5A" />
     </ComponentGroup>
   </Fragment>
 </Wix>
